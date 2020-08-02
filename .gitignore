@@ -5,3 +5,4 @@ newrelic_agent.log
 /public/stylesheets/*.css
 /.vscode/*
 /log/*.log
+.DS_Store

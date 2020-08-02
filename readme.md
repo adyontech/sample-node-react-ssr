@@ -11,9 +11,13 @@
 
 Sample images :-
 
-![](./readme-imgs/web.png =100x20)
+<img src="./readme-imgs/web.png"
+     alt="Markdown Monster icon"
+     style="height:100px, width:100px" />
 
-![](./readme-imgs/mweb.png =100x20)
+<img src="./readme-imgs/mweb.png"
+     alt="Markdown Monster icon"
+     style="height:100px, width:100px" />
 
 ##### Features :-
 
