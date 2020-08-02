@@ -1,0 +1,41 @@
+.tileImg {
+  height: 13em;
+  width: 13em;
+}
+
+.decriptionBlock {
+}
+.itemContainer {
+  cursor: pointer;
+  width: 30%;
+  border: 1px solid black;
+  padding: 0.9em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2em 0em;
+}
+.tileHeading,
+.tileDesc,
+.tileSize {
+  margin: 0;
+  padding: 0;
+  margin-top: 1em;
+}
+.tileHeading {
+  margin-top: 2em;
+}
+.decriptionBlock {
+  margin-top: 2em;
+}
+
+@media (max-width: 480px) {
+  .itemContainer {
+    width: 38%;
+  }
+  .tileImg {
+    height: 10em;
+    width: 8em;
+  }
+}

@@ -1,0 +1,27 @@
+.navbar {
+  position: sticky;
+  display: flex;
+  padding: 1em;
+  border-bottom: 1px solid black;
+}
+.naykaLogo {
+  height: 3em;
+}
+.mainSearchBar {
+  margin: 1em;
+  width: 80%;
+  height: 3em;
+  padding: 0 1em;
+}
+.searchBar {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 480px) {
+  .navbar {
+    justify-content: center;
+  }
+  .naykaLogo {
+    height: 2em;
+  }
+}

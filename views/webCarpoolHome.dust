@@ -1,0 +1,20 @@
+{>"layouts/layoutWeb" /}
+{<title}{pageMetaData.title}{/title}
+{<desc}{pageMetaData.description|s}{/desc}
+{<Canonical}{pageMetaData.canonical}{/Canonical}
+{<alternate}{pageMetaData.alternateLink}{/alternate}
+
+{<body}
+{<pageStyles}
+<link rel="stylesheet" type="text/css" href="../../r-pool/stylesheets/webCarpoolHome.01b953df058a6461da92.css?v=xc234">
+{/pageStyles}
+<div id="reactContentMount">{renderedHTML|s}</div>
+<meta id="dataDump" data='{pageData}' />
+
+
+{<pageScripts}
+<script type="text/javascript" src="../../r-pool/scripts/webCarpoolHome.01b953df058a6461da92.bundle.js?v=xc234"></script>
+{/pageScripts}
+
+{/body}
+

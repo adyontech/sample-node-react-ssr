@@ -1,0 +1,41 @@
+@import "../../../../components/web/nayka-nav/index.css";
+@import "../../../../components/web/ProductListing/index.css";
+
+.page-container {
+  position: relative;
+  margin: 3em;
+  min-height: 120vh;
+}
+
+.moveToTop {
+  cursor: pointer;
+  position: fixed;
+  height: 0.8em;
+  width: 0.8em;
+  border: 1px solid #000;
+  font-size: 5em;
+  right: 0;
+  justify-content: center;
+  display: flex;
+  margin-right: 0.7em;
+  margin-bottom: 0.7em;
+  bottom: 0;
+  background: white;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5em;
+}
+
+@media (max-width: 480px) {
+  .page-container {
+    margin: 1em;
+  }
+
+  .container {
+    padding: 0;
+  }
+}

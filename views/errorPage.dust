@@ -1,0 +1,16 @@
+{>"layouts/layoutWeb" /}
+{<title}{pageMetaData.title}{/title}
+{<desc}{pageMetaData.description}{/desc}
+{<body} {<pageStyles}
+<link rel="stylesheet" type="text/css" href="../../r-pool/stylesheets/errorPage.739a0e13e511075892db.css?v=xc234">
+ {/pageStyles}
+
+<div id="reactContentMount">{renderedHTML|s}</div>
+<meta id="dataDump" data="{pageData}" />
+<img
+  src="https://www.redbus.in/i/50f73c120f3f2fd5c79e5a4596a9bccb.png"
+  style="max-width:100%; height:auto; display:block; margin:.7em auto;    padding-top: 2em;"
+/>
+{<pageScripts}
+<script type="text/javascript" src="../../r-pool/scripts/errorPage.739a0e13e511075892db.bundle.js?v=xc234"></script>
+{/pageScripts} {/body}

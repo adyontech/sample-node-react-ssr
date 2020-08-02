@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+  <head>
+    <!-- Google Tag Manager -->
+
+    <!-- <link rel="preload" importance="high" href="/public/scripts/vendor.js" as="script"> -->
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-TCFTX7");
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../r-pool/customstyle/Montserrat.css"
+    />
+    <style>
+      html {
+        font-family: "Montserrat";
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+      }
+      body {
+        margin: 0;
+        font-family: "Montserrat";
+      }
+    </style>
+    <title>{+title /}</title>
+    <meta name="description" content="{+desc/}" />
+    <link rel="canonical" href={+Canonical/}>
+    <link rel="alternate" href="{+alternate/}" />
+
+    <meta name="viewport" content="initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../r-pool/stylesheets/layoutWeb.3204a2d0d3f4f937710a.css?v=xc234"
+    />
+
+    <!--linklayoutstylesend-->
+    {+pageStyles /}
+    <!-- <script type="text/javascript" src="/public/scripts/vendor.js"></script> -->
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-TCFTX7"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+        title="gtm"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    {+body /} {+pageScripts /}
+  </body>
+
+  <style>
+    .async-hide {
+      opacity: 0 !important;
+    }
+  </style>
+  <script
+    type="text/javascript"
+    src="../../r-pool/scripts/layoutWeb.3204a2d0d3f4f937710a.bundle.js?v=xc234"
+  ></script>
+</html>

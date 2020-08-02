@@ -1,0 +1,64 @@
+.navigation-bar {
+  position: absolute;
+  top: 0;
+  transition: all 1.5s linear;
+  background-color: #d84f57;
+  padding-right: 0;
+  width: 100%;
+}
+
+.redbus-logo {
+  background: url(https://www.redbus.in/bushire/static/img/icons/red-bus-logo-white.png)
+    no-repeat;
+}
+.redbus-logo {
+  width: 79px;
+  height: 42px;
+  text-indent: -1000px;
+  float: left;
+  margin-top: 10px;
+}
+.nav-container {
+  margin-left: 3em;
+}
+.nav-menu {
+  display: inline-block;
+}
+.nav-ul {
+  display: inherit;
+  margin-bottom: 0 !important;
+  cursor: pointer;
+}
+.nav-li {
+  display: inline-block;
+  list-style: none;
+  font-size: 16px;
+  color: white;
+  padding: 1em;
+}
+.nav-li > a {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
+
+.nav-rpool {
+  border-bottom: 2px solid white;
+}
+
+.breadcrumb-block {
+  background: #4a4a4a;
+  padding-left: 3em;
+}
+.breadcrumb-ul {
+  display: flex;
+}
+.breadcrumb-li {
+  margin-right: 1.5em;
+}
+.breadcrumb-li > a {
+  text-decoration: none;
+}
+.breadcrumb-span {
+  color: white;
+}

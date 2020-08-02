@@ -1,0 +1,159 @@
+.main-header {
+  background: #d84e55 !important;
+  box-shadow: 0 1px 9px rgba(0, 0, 0, 0.47);
+  -webkit-box-shadow: 0 1px 9px rgba(0, 0, 0, 0.47);
+  -moz-box-shadow: 0 1px 9px rgba(0, 0, 0, 0.47);
+  -ms-box-shadow: 0 1px 9px rgba(0, 0, 0, 0.47);
+  height: 3.6em;
+  line-height: 2em;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  padding: 5px 0 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 600;
+}
+.header-main {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+}
+.header-back-icon {
+  height: 17px;
+  width: 17px;
+  color: #fff;
+}
+.lines-button {
+  outline: none;
+  background: transparent;
+  border: 1px solid transparent;
+  height: 32px;
+  display: inline-block;
+  padding: 0;
+  position: relative;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all ease 0.3s;
+  cursor: default;
+  user-select: none;
+  border-radius: 4.57143px;
+  width: 29px;
+  top: 0.5em;
+  left: 0;
+}
+.fl {
+  float: left;
+}
+.text-center {
+  text-align: center;
+}
+.lines-button:hover {
+  opacity: 1;
+}
+.lines,
+.lines:after,
+.lines:before {
+  display: inline-block;
+  width: 100%;
+  height: 1.5px;
+  background: #fff;
+  border-radius: 0;
+  transition: 0.2s;
+}
+
+.lines:after,
+.lines:before {
+  position: absolute;
+  left: 0;
+  content: "";
+  transform-origin: 1.77778px center;
+}
+.lines,
+.lines:after,
+.lines:before {
+  display: inline-block;
+  width: 100%;
+  height: 1.5px;
+  background: #fff;
+  border-radius: 0;
+  transition: 0.2s;
+}
+
+.lines {
+  position: relative;
+}
+.lines:before {
+  top: 8px;
+}
+.lines-button:hover .lines:before {
+  top: 9.14286px;
+}
+
+.lines-button:hover .lines:after {
+  top: -9.14286px;
+}
+.lines:after {
+  top: -8px;
+}
+
+.lines:after,
+.lines:before {
+  position: absolute;
+  left: 0;
+  content: "";
+  transform-origin: 1.77778px center;
+}
+.lines,
+.lines:after,
+.lines:before {
+  display: inline-block;
+  width: 100%;
+  height: 1.5px;
+  background: #fff;
+  border-radius: 0;
+  transition: 0.2s;
+}
+.hd-rb-logo,
+.hd-rb-logo > a {
+  background-position: right 0;
+}
+.hd-rb-logo {
+  width: 20%;
+  top: 0.7em;
+  right: 1.5em;
+  float: right;
+  position: absolute;
+}
+.hd-rb-logo > a {
+  width: 100%;
+  float: right;
+  min-height: 34px;
+  background-image: url(/r-pool/images/redbus_logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-indent: -2000px;
+}
+.breadcrumb-block {
+  background: #4a4a4a;
+  padding-left: 1em;
+}
+.breadcrumb-ul {
+  display: flex;
+}
+.breadcrumb-li {
+  margin-right: 0.3em;
+}
+.breadcrumb-li > a {
+  text-decoration: none;
+}
+.breadcrumb-span {
+  color: white;
+}
+.page-title {
+  left: 2em;
+  position: absolute;
+  top: -0.2em;
+  color: #fff;
+  font-weight: 100;
+}
